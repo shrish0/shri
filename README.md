@@ -1,2 +1,2 @@
 # shri
-click to visit website : https://shrish0.github.io/shri/
+https://shrish0.github.io/shri/shri.html
