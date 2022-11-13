@@ -2,19 +2,29 @@ body{
     color: black;
     padding: 1px;
     margin: 0px;
-    background: url('https://source.unsplash.com/random/?white') no-repeat center;
+    background: url('https://source.unsplash.com/random/?white') center;
     width: 100%;
     background-size: cover;
 }
 header{
     display: block;
     color: white;
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: grey;
-    height: 180px;
+    height: 8em;
     border-radius: 30px;
-   
+    
+}
+footer{
+    background-color: grey;
+    border: 3px black;
+    position: relative;
+    display: flex;
+    height: 3em;
+    bottom: 0px;
+    /* top:25em; */
+    border-radius: 30px;
 }
 .left{
     border:solid white 5px;
@@ -23,18 +33,20 @@ header{
     border-radius : 22px;
     position: absolute;
     left: 13px;
-    font-size: 33px;
+    font-size: 1.5em;
     font-family: "Lobster",cursive;
     padding: 5px;
     text-align: center;
-    top: 12px;
+    top: 2px;
+    width: 5%;
+    height: 80%;
 }
 .mid{
     display: block;
-    width: 55%;
+    width: 75%;
     margin: 2px auto ;
     position: relative;
-    top: 40px;
+    top: 1.4em;
 }
 .right{
     border: 6px solid hsl(0, 33%, 99%);
@@ -42,7 +54,7 @@ header{
     display: inline-block;
     position: absolute;
     right: 20px;
-    top: 70px; 
+    top: 2.8em; 
     padding: 3px;
     width :auto;
 }
@@ -58,7 +70,7 @@ header{
     text-decoration: none;
     color: white;
     padding: 14px 13px;
-    font-size: 50px;
+    font-size: 2.6em;
     font-family:   'Times New Roman', serif;
     font: bold;
 }
@@ -74,7 +86,8 @@ header{
    
 }
 .left img{
-    width :80px;
+    width :85%;
+    height: 70%;
     border-radius: 50%;
 
 }
